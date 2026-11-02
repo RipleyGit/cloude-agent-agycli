@@ -3,20 +3,34 @@
   "displayName": "Antigravity CLI",
   "version": "1.0.0",
   "description": "Antigravity CLI (agy) Agent Provider for Cloud-Agent / Open-Cloude-Agent",
-  "icon": "icon.svg",
+  "icon": "icon.png",
   "type": "agent",
   "server": "dist/server.js",
-  "permissions": ["network", "storage"],
+  "permissions": [
+    "network",
+    "storage"
+  ],
   "agent": {
     "providerId": "agy",
     "cliName": "agy",
     "displayName": "Antigravity CLI",
     "defaultModel": "gemini-2.5-pro",
-    "watchPaths": ["~/.gemini/antigravity-cli/brain"],
+    "watchPaths": [
+      "~/.gemini/antigravity-cli/brain"
+    ],
     "models": [
-      { "value": "gemini-2.5-pro", "label": "Gemini 2.5 Pro" },
-      { "value": "gemini-2.5-flash", "label": "Gemini 2.5 Flash" },
-      { "value": "gemini-3.8-flash-low", "label": "Gemini 3.8 Flash" }
+      {
+        "value": "gemini-2.5-pro",
+        "label": "Gemini 2.5 Pro"
+      },
+      {
+        "value": "gemini-2.5-flash",
+        "label": "Gemini 2.5 Flash"
+      },
+      {
+        "value": "gemini-3.8-flash-low",
+        "label": "Gemini 3.8 Flash"
+      }
     ]
   },
   "repository": "https://github.com/RipleyGit/cloude-agent-agycli"
