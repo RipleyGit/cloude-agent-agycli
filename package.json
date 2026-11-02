@@ -1,7 +1,7 @@
 {
   "name": "cloude-agent-agycli",
   "version": "1.0.0",
-  "description": "Local Google Antigravity (agy) execution driver and Agent Provider for Cloud-Agent / Open-Cloude-Agent",
+  "description": "Antigravity CLI (agy) Agent Provider for Cloud-Agent / Open-Cloude-Agent",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
