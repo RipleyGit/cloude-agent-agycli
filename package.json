@@ -1,0 +1,36 @@
+{
+  "name": "cloude-agent-agycli",
+  "version": "1.0.0",
+  "description": "Local Google Antigravity (agy) execution driver and Agent Provider for Cloud-Agent / Open-Cloude-Agent",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RipleyGit/cloude-agent-agycli.git"
+  },
+  "keywords": [
+    "cloudcli",
+    "cloud-agent",
+    "open-cloude-agent",
+    "antigravity",
+    "agy",
+    "gemini",
+    "agent-plugin",
+    "provider"
+  ],
+  "author": "Ripley",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/RipleyGit/cloude-agent-agycli/issues"
+  },
+  "homepage": "https://github.com/RipleyGit/cloude-agent-agycli#readme",
+  "dependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
